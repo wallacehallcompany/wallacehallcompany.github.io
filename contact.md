@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-neilson@sent.com
+contact@wallacehallcompany.com
 
 +1 212 203 7224
 
