@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="cover">
+      <div class="site-name">
+        <div class="site-name__inner">
+          <div class="name">{{ site.title }}</div>
+          <div class="desc">{{site.description}}</div>
+          {% for page in site.pages %}
+            {% if page.title %}
+            <div class="btn"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <header class="site-header"></header>
+  </body>
+</html>

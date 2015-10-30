@@ -1,0 +1,12 @@
+# Site settings
+title: Wallace Hall Company
+email: contact@wallacehallcompany.com
+description: >
+    Independent monetary research
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wallacehallcompany.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
